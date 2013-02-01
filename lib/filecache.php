@@ -375,7 +375,7 @@ class OC_FileCache{
 				return;
 			}
 			$normalizedPath=dirname($normalizedPath);
-			if($patnormalizedPathh =='/'){
+			if($normalizedPath =='/'){
 				$normalizedPath = '';
 			}
 			$parent = OC_FileCache_Cached::get($normalizedPath);
